@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">Enfants de petit à grand</title>
+  <desc id="desc">Cinq silhouettes d’enfants de tailles croissantes, dans les couleurs de l’association PERB.</desc>
+  <defs>
+    <linearGradient id="softWhite" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.98"/>
+      <stop offset="1" stop-color="#dbe6f5" stop-opacity="0.86"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffd779"/>
+      <stop offset="1" stop-color="#f5bd42"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <path d="M45 500 H855" stroke="#f5bd42" stroke-opacity="0.45" stroke-width="2"/>
+  <ellipse cx="430" cy="500" rx="350" ry="18" fill="#000" opacity="0.18"/>
+
+  <!-- Tout-petit -->
+  <g transform="translate(58 0)" fill="url(#softWhite)">
+    <circle cx="70" cy="365" r="30"/>
+    <path d="M47 399 Q70 386 93 399 L103 452 Q88 462 70 462 Q52 462 37 452 Z"/>
+    <rect x="48" y="452" width="17" height="43" rx="8" transform="rotate(4 56 473)"/>
+    <rect x="76" y="452" width="17" height="43" rx="8" transform="rotate(-4 84 473)"/>
+    <rect x="27" y="405" width="15" height="55" rx="8" transform="rotate(18 34 432)"/>
+    <rect x="98" y="405" width="15" height="55" rx="8" transform="rotate(-18 105 432)"/>
+  </g>
+
+  <!-- Enfant 2 -->
+  <g transform="translate(190 0)" fill="url(#softWhite)">
+    <circle cx="70" cy="318" r="31"/>
+    <path d="M42 357 Q70 341 98 357 L108 435 Q91 447 70 447 Q49 447 32 435 Z"/>
+    <rect x="43" y="438" width="18" height="59" rx="9" transform="rotate(3 52 468)"/>
+    <rect x="79" y="438" width="18" height="59" rx="9" transform="rotate(-3 88 468)"/>
+    <rect x="20" y="366" width="16" height="72" rx="8" transform="rotate(15 28 402)"/>
+    <rect x="104" y="366" width="16" height="72" rx="8" transform="rotate(-15 112 402)"/>
+  </g>
+
+  <!-- Enfant 3, accent doré -->
+  <g transform="translate(348 0)">
+    <circle cx="70" cy="260" r="33" fill="url(#gold)" filter="url(#glow)"/>
+    <path d="M38 301 Q70 282 102 301 L113 410 Q93 424 70 424 Q47 424 27 410 Z" fill="url(#gold)"/>
+    <rect x="40" y="417" width="19" height="81" rx="9" fill="url(#gold)" transform="rotate(2 50 457)"/>
+    <rect x="81" y="417" width="19" height="81" rx="9" fill="url(#gold)" transform="rotate(-2 91 457)"/>
+    <rect x="13" y="309" width="17" height="91" rx="9" fill="url(#gold)" transform="rotate(13 22 355)"/>
+    <rect x="110" y="309" width="17" height="91" rx="9" fill="url(#gold)" transform="rotate(-13 119 355)"/>
+  </g>
+
+  <!-- Pré-ado -->
+  <g transform="translate(520 0)" fill="url(#softWhite)">
+    <circle cx="70" cy="205" r="35"/>
+    <path d="M34 249 Q70 227 106 249 L119 394 Q96 411 70 411 Q44 411 21 394 Z"/>
+    <rect x="38" y="402" width="20" height="96" rx="10" transform="rotate(2 48 450)"/>
+    <rect x="82" y="402" width="20" height="96" rx="10" transform="rotate(-2 92 450)"/>
+    <rect x="6" y="260" width="18" height="112" rx="9" transform="rotate(12 15 316)"/>
+    <rect x="116" y="260" width="18" height="112" rx="9" transform="rotate(-12 125 316)"/>
+  </g>
+
+  <!-- Ado -->
+  <g transform="translate(700 0)" fill="url(#softWhite)">
+    <circle cx="70" cy="145" r="38"/>
+    <path d="M31 192 Q70 168 109 192 L123 374 Q98 393 70 393 Q42 393 17 374 Z"/>
+    <rect x="36" y="385" width="21" height="113" rx="10" transform="rotate(1 47 442)"/>
+    <rect x="83" y="385" width="21" height="113" rx="10" transform="rotate(-1 94 442)"/>
+    <rect x="-1" y="205" width="19" height="133" rx="9" transform="rotate(10 8 272)"/>
+    <rect x="122" y="205" width="19" height="133" rx="9" transform="rotate(-10 132 272)"/>
+  </g>
+
+  <g font-family="Arial, sans-serif" font-size="14" letter-spacing="3" fill="#dfe8f5" opacity="0.72">
+    <text x="450" y="535" text-anchor="middle">GRANDIR • ÊTRE PROTÉGÉ • RESTER EN LIEN</text>
+  </g>
+</svg>
