@@ -81,9 +81,28 @@
     </section>
 
     <section class="join" id="aide">
-      <div class="join-card reveal">
-        <div><p class="section-kicker light">Besoin d’aide ?</p><h2>Votre situation mérite<br>d’être <em>entendue.</em></h2><p>Expliquez-nous les faits essentiels, les prochaines échéances et les décisions déjà reçues. Notre équipe vous répondra selon les disponibilités.</p></div>
-        <div class="join-actions"><a class="button gold" href="mailto:contact@association-perb.fr?subject=Demande%20d%27accompagnement%20PERB">Écrire à PERB <span>↗</span></a></div>
+      <div class="join-card contact-card reveal">
+        <div class="contact-intro">
+          <p class="section-kicker light">Besoin d’aide ?</p>
+          <h2>Votre situation mérite<br>d’être <em>entendue.</em></h2>
+          <p>Remplissez ce formulaire pour préparer votre message. Votre application de messagerie s’ouvrira ensuite avec les informations déjà complétées.</p>
+          <p class="privacy-note">Aucune donnée n’est enregistrée par ce site. Le message est envoyé depuis votre propre messagerie.</p>
+          <a class="direct-mail" href="mailto:contact@association-perb.fr?subject=Demande%20d%27accompagnement%20PERB">Écrire directement à contact@association-perb.fr <span>→</span></a>
+        </div>
+        <form class="help-form" id="help-form">
+          <div class="form-row">
+            <label>Nom et prénom<input type="text" name="nom" autocomplete="name" required></label>
+            <label>Adresse e-mail<input type="email" name="email" autocomplete="email" required></label>
+          </div>
+          <div class="form-row">
+            <label>Téléphone <small>(facultatif)</small><input type="tel" name="telephone" autocomplete="tel"></label>
+            <label>Prochaine audience ou échéance <small>(facultatif)</small><input type="date" name="echeance"></label>
+          </div>
+          <label>Votre situation<textarea name="message" rows="7" required placeholder="Expliquez les faits essentiels, les décisions reçues et l’aide recherchée."></textarea></label>
+          <label class="consent"><input type="checkbox" name="consentement" required><span>J’accepte que ces informations soient utilisées par PERB pour répondre à ma demande.</span></label>
+          <button class="button gold form-submit" type="submit">Préparer mon e-mail <span>↗</span></button>
+          <p class="form-status" id="form-status" aria-live="polite"></p>
+        </form>
       </div>
       <div class="support-grid">
         <article class="support reveal"><p class="label">DEVENIR ADHÉRENT</p><h3>50 € <small>/ an</small></h3><p>L’adhésion annuelle ouvre l’accès au suivi approfondi et aux rendez-vous en visioconférence.</p><a href="mailto:contact@association-perb.fr?subject=Adhésion%20annuelle%20PERB">Je souhaite adhérer <span>→</span></a></article>
