@@ -1,13 +1,14 @@
-.hero-art{background:linear-gradient(90deg,var(--navy),transparent 22%),url('familles-unies.png') 56% center/cover no-repeat;border:1px solid #ffffff18;box-shadow:0 28px 80px #0008}
-
-/* Illustration PERB : enfants de petit à grand sur la partie gauche */
-.hero::before{content:"";position:absolute;left:clamp(1rem,4.5vw,5rem);bottom:1.2rem;width:min(47vw,760px);height:78%;background:url('enfants-croissance.svg') left bottom/contain no-repeat;z-index:1;pointer-events:none;opacity:.94;filter:drop-shadow(0 24px 38px #0006)}
+/* Hero PERB : illustration des enfants sur la gauche, texte sur la droite */
+.hero-copy{grid-column:2;grid-row:1;align-self:center}
+.hero-art{grid-column:1;grid-row:1;height:600px;background:url('enfants-croissance.svg') center bottom/contain no-repeat;border:0;box-shadow:none;display:block;position:relative;z-index:2}
+.hero-art .art-card{display:none}
+.hero::before{display:none}
 
 @media(max-width:1000px){
-  .hero::before{left:50%;bottom:.5rem;transform:translateX(-50%);width:min(88vw,720px);height:38%;opacity:.72}
+  .hero-copy{grid-column:1;grid-row:1}
+  .hero-art{grid-column:1;grid-row:2;height:380px;margin-top:1.5rem;background-position:center bottom}
 }
 
 @media(max-width:680px){
-  .hero-art{background-position:61% center}
-  .hero::before{width:94vw;height:31%;bottom:.25rem;opacity:.64}
+  .hero-art{height:300px;margin-top:.5rem;background-position:center bottom}
 }
