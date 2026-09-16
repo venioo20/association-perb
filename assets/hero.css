@@ -1,14 +1,14 @@
-/* Hero PERB : illustration des enfants sur la gauche, texte sur la droite */
+/* Hero PERB : vraie photo de famille à gauche, texte à droite */
 .hero-copy{grid-column:2;grid-row:1;align-self:center}
-.hero-art{grid-column:1;grid-row:1;height:600px;background:url('enfants-croissance.svg') center bottom/contain no-repeat;border:0;box-shadow:none;display:block;position:relative;z-index:2}
+.hero-art{grid-column:1;grid-row:1;height:600px;background:linear-gradient(90deg,rgba(7,22,47,.28),rgba(7,22,47,0) 45%),url('https://images.unsplash.com/photo-1761257517694-8f76923e2b1e?auto=format&fit=crop&fm=jpg&q=82&w=1600') center/cover no-repeat;border:1px solid #ffffff18;box-shadow:0 28px 80px #0008;display:block;position:relative;z-index:2}
 .hero-art .art-card{display:none}
 .hero::before{display:none}
 
 @media(max-width:1000px){
   .hero-copy{grid-column:1;grid-row:1}
-  .hero-art{grid-column:1;grid-row:2;height:380px;margin-top:1.5rem;background-position:center bottom}
+  .hero-art{grid-column:1;grid-row:2;height:420px;margin-top:1.5rem;background-position:center}
 }
 
 @media(max-width:680px){
-  .hero-art{height:300px;margin-top:.5rem;background-position:center bottom}
+  .hero-art{height:320px;margin-top:.5rem;background-position:center}
 }
