@@ -52,3 +52,18 @@
   .contact-card .contact-intro h2{font-size:clamp(2.2rem,12vw,3.4rem)}
   .help-form .form-row{grid-template-columns:1fr}
 }
+
+
+/* Logo PERB */
+.brand-logo{
+  width:52px;
+  height:52px;
+  object-fit:contain;
+  flex:0 0 auto;
+  filter:drop-shadow(0 3px 8px rgba(0,0,0,.16));
+}
+.footer-brand .brand-logo{width:64px;height:64px}
+@media(max-width:620px){
+  .brand-logo{width:44px;height:44px}
+  .footer-brand .brand-logo{width:54px;height:54px}
+}
