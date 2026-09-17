@@ -96,3 +96,6 @@
 @media(max-width:680px){
   .nav-actions{display:none}
 }
+
+/* Deux familles unies : contraste sur les fonds sombres */
+.brand-logo{background:#fff;border-radius:12px;padding:5px;filter:none}
