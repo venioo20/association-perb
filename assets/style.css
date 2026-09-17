@@ -67,3 +67,32 @@
   .brand-logo{width:44px;height:44px}
   .footer-brand .brand-logo{width:54px;height:54px}
 }
+
+/* Actions principales de l'en-tête */
+.nav-actions{
+  display:flex;
+  align-items:center;
+  gap:.65rem;
+  flex:none;
+}
+.nav-actions .nav-cta{
+  margin-left:0;
+  white-space:nowrap;
+}
+.nav-join{
+  background:transparent;
+  color:var(--gold);
+  border:1px solid var(--gold);
+  transition:background .2s,color .2s;
+}
+.nav-join:hover{
+  background:var(--gold);
+  color:var(--navy);
+}
+@media(max-width:1180px){
+  .nav nav{display:none}
+  .nav-actions{margin-left:auto}
+}
+@media(max-width:680px){
+  .nav-actions{display:none}
+}
