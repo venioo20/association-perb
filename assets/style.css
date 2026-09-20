@@ -99,3 +99,57 @@
 
 /* Deux familles unies : contraste sur les fonds sombres */
 .brand-logo{background:#fff;border-radius:12px;padding:5px;filter:none}
+
+
+/* Parcours orienté vers le besoin du parent */
+.situations{padding:clamp(5rem,9vw,8rem) clamp(1.2rem,7vw,8rem);background:#fff}
+.situations-head{max-width:880px}
+.situations-head h2,.voices h2,.faq h2{font:700 clamp(2.5rem,5vw,5.1rem)/1.06 Manrope,sans-serif;letter-spacing:-.045em;margin:.7rem 0 1.3rem}
+.situations-head>p:last-child,.faq-head>p:last-child,.voices-copy>p:last-child{color:var(--muted);font-size:1.05rem;max-width:720px}
+.situation-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:3rem}
+.situation-card{display:flex;flex-direction:column;min-height:295px;padding:1.7rem;border:1px solid var(--line);background:#fff;transition:.25s;box-shadow:0 8px 30px rgba(7,22,47,.04)}
+.situation-card:hover,.situation-card:focus-visible{transform:translateY(-5px);border-color:#c9a044;box-shadow:0 18px 45px rgba(7,22,47,.1)}
+.situation-card>span{font-size:.72rem;font-weight:800;color:#9b6e0c;letter-spacing:.12em}
+.situation-card h3{font:700 1.35rem/1.25 Manrope,sans-serif;margin:2.2rem 0 .8rem}
+.situation-card p{color:var(--muted);margin:0 0 1.5rem}
+.situation-card b{margin-top:auto;color:#8a620d;font-size:.86rem}
+.situation-reassurance{margin-top:1.25rem;padding:1.25rem 1.4rem;background:var(--cream);border-left:4px solid var(--gold);display:flex;gap:.7rem 1rem;flex-wrap:wrap}
+.situation-reassurance span{color:var(--muted)}
+
+.voices{padding:clamp(5rem,9vw,8rem) clamp(1.2rem,7vw,8rem);display:grid;grid-template-columns:1fr .85fr;gap:7vw;align-items:center;background:#fff}
+.voice-card{margin:0;padding:clamp(2rem,4vw,3.5rem);background:var(--navy);color:#fff;position:relative}
+.voice-card:before{content:"“";position:absolute;top:.2rem;left:1.2rem;font:800 6rem Manrope;color:#f5bd4233}
+.voice-card p{font:600 clamp(1.35rem,2.4vw,2.15rem)/1.45 Manrope;margin:1rem 0 2rem;position:relative}
+.voice-card footer{color:var(--gold);font-weight:700}
+.voice-card footer span{display:block;color:#9eabc0;font-weight:500;font-size:.82rem;margin-top:.25rem}
+
+.mail-fallback{display:flex;gap:.8rem;align-items:center;flex-wrap:wrap;margin-top:1rem}
+.mail-fallback .direct-mail{margin-top:0}
+.copy-mail{border:1px solid #ffffff55;background:transparent;color:#fff;padding:.65rem .85rem;font:600 .82rem "DM Sans",sans-serif;cursor:pointer}
+.copy-mail:hover,.copy-mail:focus-visible{border-color:var(--gold);color:var(--gold)}
+.form-help{margin:0!important;color:#667085!important;font-size:.82rem;line-height:1.45}
+.membership-price{display:flex;align-items:baseline;gap:.45rem;margin:1.3rem 0 .5rem!important;color:var(--ink)!important}
+.membership-price b{font:800 1.4rem Manrope}
+.membership-price span{color:var(--muted)}
+
+.faq{padding:clamp(5rem,9vw,8rem) clamp(1.2rem,7vw,8rem);background:var(--cream);display:grid;grid-template-columns:.85fr 1.15fr;gap:7vw}
+.faq-head{max-width:620px}
+.faq-list{border-top:1px solid #cfcac0}
+.faq-list details{border-bottom:1px solid #cfcac0;padding:0}
+.faq-list summary{cursor:pointer;list-style:none;padding:1.55rem 2.7rem 1.55rem 0;font:700 1.08rem/1.4 Manrope;position:relative}
+.faq-list summary::-webkit-details-marker{display:none}
+.faq-list summary:after{content:"+";position:absolute;right:.3rem;top:1.25rem;font:400 1.8rem Manrope;color:#9b6e0c}
+.faq-list details[open] summary:after{content:"−"}
+.faq-list details p{color:var(--muted);margin:-.35rem 2.7rem 1.6rem 0}
+
+@media(max-width:1000px){
+  .situation-grid{grid-template-columns:repeat(2,1fr)}
+  .voices,.faq{grid-template-columns:1fr}
+}
+@media(max-width:680px){
+  .situations,.voices,.faq{padding-left:1.2rem;padding-right:1.2rem}
+  .situation-grid{grid-template-columns:1fr}
+  .situation-card{min-height:0}
+  .situation-reassurance{display:block}
+  .situation-reassurance span{display:block;margin-top:.35rem}
+}
