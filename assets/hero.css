@@ -1,14 +1,69 @@
-/* Hero PERB : vraie photo de famille à gauche, texte à droite */
-.hero-copy{grid-column:2;grid-row:1;align-self:center}
-.hero-art{grid-column:1;grid-row:1;height:600px;background:linear-gradient(90deg,rgba(7,22,47,.28),rgba(7,22,47,0) 45%),url('https://images.unsplash.com/photo-1761257517694-8f76923e2b1e?auto=format&fit=crop&fm=jpg&q=82&w=1600') center/cover no-repeat;border:1px solid #ffffff18;box-shadow:0 28px 80px #0008;display:block;position:relative;z-index:2}
-.hero-art .art-card{display:none}
-.hero::before{display:none}
+/* Hero PERB : version épurée sans photo de famille */
+.hero{
+  grid-template-columns:1fr;
+  align-items:center;
+}
+.hero-copy{
+  grid-column:1;
+  grid-row:1;
+  align-self:center;
+  max-width:1050px;
+  padding-right:clamp(0rem,8vw,7rem);
+}
+.hero h1{
+  font-size:clamp(3rem,5.6vw,5.9rem);
+  max-width:1000px;
+}
+.hero .lead{
+  max-width:780px;
+}
+.hero-art{
+  display:none;
+}
+.hero::before{
+  content:"";
+  display:block;
+  position:absolute;
+  width:min(42vw,620px);
+  height:min(42vw,620px);
+  right:-10vw;
+  top:50%;
+  transform:translateY(-50%);
+  border:1px solid #f5bd4233;
+  border-radius:50%;
+  box-shadow:
+    0 0 0 70px #ffffff08,
+    0 0 0 140px #f5bd4210;
+  z-index:1;
+  pointer-events:none;
+}
+.hero-copy,
+.scroll-cue{
+  position:relative;
+  z-index:2;
+}
 
 @media(max-width:1000px){
-  .hero-copy{grid-column:1;grid-row:1}
-  .hero-art{grid-column:1;grid-row:2;height:420px;margin-top:1.5rem;background-position:center}
+  .hero-copy{
+    padding-right:0;
+    max-width:900px;
+  }
+  .hero::before{
+    width:520px;
+    height:520px;
+    right:-260px;
+    opacity:.7;
+  }
 }
 
 @media(max-width:680px){
-  .hero-art{height:320px;margin-top:.5rem;background-position:center}
+  .hero h1{
+    font-size:clamp(2.8rem,13vw,4.2rem);
+  }
+  .hero::before{
+    width:360px;
+    height:360px;
+    right:-230px;
+    opacity:.45;
+  }
 }
