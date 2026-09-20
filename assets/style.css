@@ -116,12 +116,15 @@
 .situation-reassurance{margin-top:1.25rem;padding:1.25rem 1.4rem;background:var(--cream);border-left:4px solid var(--gold);display:flex;gap:.7rem 1rem;flex-wrap:wrap}
 .situation-reassurance span{color:var(--muted)}
 
-.voices{padding:clamp(5rem,9vw,8rem) clamp(1.2rem,7vw,8rem);display:grid;grid-template-columns:1fr .85fr;gap:7vw;align-items:center;background:#fff}
-.voice-card{margin:0;padding:clamp(2rem,4vw,3.5rem);background:var(--navy);color:#fff;position:relative}
-.voice-card:before{content:"“";position:absolute;top:.2rem;left:1.2rem;font:800 6rem Manrope;color:#f5bd4233}
-.voice-card p{font:600 clamp(1.35rem,2.4vw,2.15rem)/1.45 Manrope;margin:1rem 0 2rem;position:relative}
-.voice-card footer{color:var(--gold);font-weight:700}
-.voice-card footer span{display:block;color:#9eabc0;font-weight:500;font-size:.82rem;margin-top:.25rem}
+.voices{padding:clamp(5rem,9vw,8rem) clamp(1.2rem,7vw,8rem);background:#fff}
+.voices-copy{max-width:920px;margin-bottom:2.5rem}
+.voices-disclaimer{margin-top:1.2rem;padding:1rem 1.15rem;border-left:3px solid var(--gold);background:var(--cream);font-size:.9rem!important;line-height:1.55}
+.voices-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}
+.voice-card{margin:0;padding:clamp(1.5rem,2.6vw,2.2rem);background:var(--navy);color:#fff;position:relative;min-height:300px;display:flex;flex-direction:column}
+.voice-card:before{content:"“";position:absolute;top:.15rem;left:1rem;font:800 4.8rem Manrope;color:#f5bd4233}
+.voice-card p{font:600 clamp(1rem,1.5vw,1.25rem)/1.5 Manrope;margin:1.25rem 0 2rem;position:relative}
+.voice-card footer{color:var(--gold);font-weight:700;margin-top:auto}
+.voice-card footer span{display:block;color:#9eabc0;font-weight:500;font-size:.78rem;margin-top:.25rem}
 
 .mail-fallback{display:flex;gap:.8rem;align-items:center;flex-wrap:wrap;margin-top:1rem}
 .mail-fallback .direct-mail{margin-top:0}
@@ -144,12 +147,13 @@
 
 @media(max-width:1000px){
   .situation-grid{grid-template-columns:repeat(2,1fr)}
-  .voices,.faq{grid-template-columns:1fr}
+  .voices-grid{grid-template-columns:repeat(2,1fr)}
+  .faq{grid-template-columns:1fr}
 }
 @media(max-width:680px){
   .situations,.voices,.faq{padding-left:1.2rem;padding-right:1.2rem}
-  .situation-grid{grid-template-columns:1fr}
-  .situation-card{min-height:0}
+  .situation-grid,.voices-grid{grid-template-columns:1fr}
+  .situation-card,.voice-card{min-height:0}
   .situation-reassurance{display:block}
   .situation-reassurance span{display:block;margin-top:.35rem}
 }
