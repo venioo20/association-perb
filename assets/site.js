@@ -30,3 +30,17 @@ helpForm?.addEventListener('submit',event=>{
   if(status) status.textContent='Ouverture de votre messagerie… Si rien ne se passe, écrivez à contact@association-perb.fr.';
   window.location.href='mailto:contact@association-perb.fr?subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(body);
 });
+
+
+const copyMailButton=document.getElementById('copy-mail');
+copyMailButton?.addEventListener('click',async()=>{
+  const email=copyMailButton.dataset.email||'contact@association-perb.fr';
+  const status=document.getElementById('form-status');
+  try{
+    await navigator.clipboard.writeText(email);
+    copyMailButton.textContent='Adresse copiée ✓';
+    if(status) status.textContent='Adresse copiée : '+email;
+  }catch{
+    if(status) status.textContent='Adresse e-mail : '+email;
+  }
+});
