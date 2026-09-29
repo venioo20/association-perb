@@ -158,3 +158,21 @@ if(voicesDisclaimer){
 document.querySelectorAll('.voice-card footer').forEach(footer=>{
   footer.innerHTML='Parent accompagné <span>— identité protégée</span>';
 });
+
+// --- PERB : page avis ---
+if(mainNav && !mainNav.querySelector('a[href="avis.html"]')){
+  const reviewLink=document.createElement('a');
+  reviewLink.href='avis.html';
+  reviewLink.className='perb-nav-link';
+  reviewLink.textContent='Donner son avis';
+  mainNav.appendChild(reviewLink);
+}
+const voicesSection=document.querySelector('.voices');
+if(voicesSection && !voicesSection.querySelector('.perb-review-cta')){
+  const reviewCta=document.createElement('div');
+  reviewCta.className='perb-review-cta reveal';
+  reviewCta.style.marginTop='28px';
+  reviewCta.innerHTML='<a class="button gold" href="avis.html">Laisser un avis <span>↗</span></a>';
+  voicesSection.appendChild(reviewCta);
+  io.observe(reviewCta);
+}
