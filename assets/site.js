@@ -149,3 +149,12 @@ fetch('assets/actualites.json?v='+Date.now(),{cache:'no-store'})
 
 // Active aussi le comportement du menu pour les liens injectés après le chargement.
 document.querySelectorAll('.perb-nav-link,.perb-nav-don').forEach(a=>a.addEventListener('click',()=>{nav?.classList.remove('open');menu?.setAttribute('aria-expanded','false')}));
+
+// --- PERB : témoignages anonymisés ---
+const voicesDisclaimer=document.querySelector('.voices-disclaimer');
+if(voicesDisclaimer){
+  voicesDisclaimer.innerHTML='<strong>Témoignages anonymisés :</strong> ces textes synthétisent des situations réellement rencontrées par des familles. Les identités et certaines formulations ont été modifiées afin de préserver leur confidentialité.';
+}
+document.querySelectorAll('.voice-card footer').forEach(footer=>{
+  footer.innerHTML='Parent accompagné <span>— identité protégée</span>';
+});
