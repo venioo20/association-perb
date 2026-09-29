@@ -187,3 +187,12 @@ if(voicesGrid && !voicesGrid.querySelector('[data-review-id="2026-09-29-01"]')){
   voicesGrid.prepend(realReview);
   io.observe(realReview);
 }
+// --- PERB : avis réellement reçu le 29/09/2026 ---
+if(voicesGrid && !voicesGrid.querySelector('[data-review-id="2026-09-29-02"]')){
+  const realReview=document.createElement('blockquote');
+  realReview.className='voice-card reveal';
+  realReview.dataset.reviewId='2026-09-29-02';
+  realReview.innerHTML='<p>« Ce qui m’aide, c’est le soutien et les conseils donnés. »</p><footer>Parent accompagné <span>— identité protégée · 4/5 · rendez-vous visio</span></footer>';
+  voicesGrid.prepend(realReview);
+  io.observe(realReview);
+}
