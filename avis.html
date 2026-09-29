@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Partagez votre avis sur l’accompagnement de l’association PERB, anonymement ou avec un prénom/pseudonyme.">
+  <meta name="theme-color" content="#07162f">
+  <title>Donner son avis — PERB</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css?v=20260920-ux3">
+  <style>
+    :root{--navy:#07162f;--gold:#f5bd42;--cream:#f7f3ea;--ink:#152033;--muted:#667085;--line:#d9dee7}
+    *{box-sizing:border-box} body{margin:0;background:var(--cream);color:var(--ink);font-family:"DM Sans",sans-serif}.review-shell{min-height:100vh}.review-nav{display:flex;align-items:center;justify-content:space-between;padding:18px clamp(20px,5vw,70px);background:var(--navy);color:#fff}.review-nav a{color:#fff;text-decoration:none}.review-brand{display:flex;align-items:center;gap:12px;font-family:Manrope,sans-serif;font-weight:800}.review-brand img{width:46px;height:46px;object-fit:contain}.back-link{padding:10px 14px;border:1px solid rgba(255,255,255,.25);border-radius:999px}.review-main{width:min(1040px,92vw);margin:0 auto;padding:64px 0 80px}.review-head{display:grid;grid-template-columns:1.1fr .9fr;gap:38px;align-items:end;margin-bottom:34px}.review-kicker{font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:#8a6413;font-size:.82rem}.review-head h1{font-family:Manrope,sans-serif;font-size:clamp(2.2rem,5vw,4.5rem);line-height:.98;margin:.35rem 0 1rem;color:var(--navy)}.review-head p{font-size:1.08rem;line-height:1.7}.review-note{background:#fff;border:1px solid var(--line);border-radius:22px;padding:22px}.review-note strong{display:block;margin-bottom:8px}.review-form{background:#fff;border:1px solid var(--line);border-radius:28px;padding:clamp(22px,4vw,42px);box-shadow:0 16px 50px rgba(7,22,47,.08)}.review-form fieldset{border:0;padding:0;margin:0 0 24px}.review-form legend{font-weight:800;margin-bottom:12px}.choice-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.choice{display:flex;gap:10px;align-items:flex-start;border:1px solid var(--line);border-radius:16px;padding:16px;cursor:pointer}.choice input{margin-top:4px}.field-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}.review-form label.field{display:block;font-weight:700;margin-bottom:18px}.review-form label.field span{display:block;margin-bottom:8px}.review-form input[type=text],.review-form input[type=email],.review-form select,.review-form textarea{width:100%;border:1px solid #cfd5df;border-radius:14px;padding:13px 14px;font:inherit;background:#fff}.review-form textarea{min-height:180px;resize:vertical}.review-form small{font-weight:400;color:var(--muted)}.check{display:flex;gap:10px;align-items:flex-start;margin:12px 0;line-height:1.5}.check input{margin-top:4px}.submit{border:0;background:var(--gold);color:#161616;font:800 1rem Manrope,sans-serif;border-radius:999px;padding:15px 22px;cursor:pointer;margin-top:18px}.submit:hover{filter:brightness(.97)}.status{margin-top:14px;color:var(--muted)}.privacy{margin-top:22px;padding-top:18px;border-top:1px solid var(--line);font-size:.92rem;color:var(--muted);line-height:1.6}.review-footer{text-align:center;padding:28px;color:#667085}.review-footer a{color:var(--navy)}@media(max-width:760px){.review-head,.field-grid,.choice-grid{grid-template-columns:1fr}.review-main{padding-top:38px}.review-nav{gap:14px}.review-brand span{display:none}}
+  </style>
+</head>
+<body>
+<div class="review-shell">
+  <header class="review-nav">
+    <a class="review-brand" href="index.html"><img src="assets/logo-perb-familles.png?v=2" alt="Logo PERB"><span>PERB — SOS Parents d’Enfants Brisés</span></a>
+    <a class="back-link" href="index.html">← Retour au site</a>
+  </header>
+
+  <main class="review-main">
+    <section class="review-head">
+      <div>
+        <p class="review-kicker">Votre expérience compte</p>
+        <h1>Donner votre avis sur PERB</h1>
+        <p>Vous pouvez témoigner <strong>anonymement</strong> ou choisir d’afficher uniquement votre prénom ou un pseudonyme. Votre adresse e-mail sert uniquement à vérifier et traiter votre témoignage : elle n’est jamais publiée.</p>
+      </div>
+      <aside class="review-note">
+        <strong>Publication après validation</strong>
+        <p>Les avis ne sont pas publiés automatiquement. PERB les relit avant publication afin de protéger les enfants, les familles et les tiers, et d’éviter la diffusion de données personnelles ou d’accusations nominatives.</p>
+      </aside>
+    </section>
+
+    <form class="review-form" id="review-form">
+      <fieldset>
+        <legend>Comment souhaitez-vous apparaître sur le site ?</legend>
+        <div class="choice-grid">
+          <label class="choice"><input type="radio" name="publication" value="Anonyme" checked><span><strong>Anonyme</strong><br><small>L’avis sera affiché comme « Parent accompagné — identité protégée ».</small></span></label>
+          <label class="choice"><input type="radio" name="publication" value="Prénom ou pseudonyme"><span><strong>Prénom ou pseudonyme</strong><br><small>Vous choisissez le nom affiché publiquement.</small></span></label>
+        </div>
+      </fieldset>
+
+      <div class="field-grid">
+        <label class="field"><span>Prénom ou pseudonyme <small>(facultatif si anonyme)</small></span><input type="text" name="displayName" maxlength="60" autocomplete="nickname" placeholder="Ex. Sophie, Papa de L., etc."></label>
+        <label class="field"><span>Adresse e-mail <small>(jamais publiée)</small></span><input type="email" name="email" required autocomplete="email" placeholder="votre@email.fr"></label>
+      </div>
+
+      <div class="field-grid">
+        <label class="field"><span>Votre appréciation</span><select name="rating" required><option value="">Choisir</option><option>5/5 — Très satisfait(e)</option><option>4/5 — Satisfait(e)</option><option>3/5 — Mitigé(e)</option><option>2/5 — Peu satisfait(e)</option><option>1/5 — Pas satisfait(e)</option></select></label>
+        <label class="field"><span>Type d’accompagnement <small>(facultatif)</small></span><select name="support"><option value="Non précisé">Non précisé</option><option>Rendez-vous visio</option><option>Aide à la rédaction d’un courrier</option><option>Lecture / organisation du dossier</option><option>Orientation et informations</option><option>Soutien / échanges</option><option>Autre</option></select></label>
+      </div>
+
+      <label class="field"><span>Votre avis</span><textarea name="review" required maxlength="2000" placeholder="Expliquez ce qui vous a aidé, ce qui vous a semblé utile ou ce qui pourrait être amélioré. N’indiquez pas le nom complet d’un enfant, d’un éducateur, d’un magistrat ou d’un tiers."></textarea></label>
+
+      <label class="check"><input type="checkbox" name="experience" required><span>Je confirme que cet avis correspond à mon expérience personnelle avec PERB.</span></label>
+      <label class="check"><input type="checkbox" name="privacy" required><span>Je confirme ne pas avoir indiqué d’informations permettant d’identifier un enfant ou un tiers.</span></label>
+      <label class="check"><input type="checkbox" name="publishConsent" required><span>J’autorise PERB à publier tout ou partie de mon avis selon le mode choisi ci-dessus, après éventuelle correction de forme ou anonymisation supplémentaire.</span></label>
+
+      <button class="submit" type="submit">Envoyer mon avis à PERB →</button>
+      <p class="status" id="review-status" aria-live="polite"></p>
+      <p class="privacy"><strong>Confidentialité :</strong> cette page n’enregistre pas votre témoignage dans une base de données. Après validation du formulaire, votre logiciel de messagerie s’ouvre avec le message préparé pour <strong>contact@association-perb.fr</strong>. Vous restez maître de l’envoi.</p>
+    </form>
+  </main>
+
+  <footer class="review-footer">© <span id="year"></span> Association PERB · <a href="index.html">perb-france.fr</a></footer>
+</div>
+<script>
+  document.getElementById('year').textContent=new Date().getFullYear();
+  const form=document.getElementById('review-form');
+  form.addEventListener('submit',event=>{
+    event.preventDefault();
+    const data=new FormData(form);
+    const publication=String(data.get('publication')||'Anonyme');
+    const displayName=String(data.get('displayName')||'').trim();
+    const email=String(data.get('email')||'').trim();
+    const rating=String(data.get('rating')||'');
+    const support=String(data.get('support')||'Non précisé');
+    const review=String(data.get('review')||'').trim();
+    const shownName=publication==='Anonyme'?'Parent accompagné — identité protégée':(displayName||'Prénom/pseudonyme non renseigné');
+    const subject='Avis PERB — '+publication+' — '+rating;
+    const body=[
+      'Bonjour,','',
+      'Je souhaite transmettre un avis sur mon accompagnement par PERB.','',
+      'Mode de publication : '+publication,
+      'Nom à afficher : '+shownName,
+      'E-mail de contact (non publié) : '+email,
+      'Appréciation : '+rating,
+      'Type d’accompagnement : '+support,'',
+      'Mon avis :',review,'',
+      'Je confirme que cet avis correspond à mon expérience personnelle.',
+      'Je confirme ne pas avoir indiqué d’informations permettant d’identifier un enfant ou un tiers.',
+      'J’autorise PERB à publier tout ou partie de cet avis selon le mode choisi, après éventuelle correction de forme ou anonymisation supplémentaire.'
+    ].join('\n');
+    document.getElementById('review-status').textContent='Ouverture de votre messagerie… Vérifiez le message puis cliquez sur Envoyer.';
+    window.location.href='mailto:contact@association-perb.fr?subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(body);
+  });
+</script>
+</body>
+</html>
