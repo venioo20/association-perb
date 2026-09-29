@@ -1,0 +1,38 @@
+{
+  "lastUpdated": "2026-09-29",
+  "intro": "Une sélection factuelle d’actualités françaises sur la protection de l’enfance : réformes, initiatives utiles, défaillances documentées et faits directement liés aux mineurs.",
+  "items": [
+    {
+      "date": "2026-09-23",
+      "tag": "Transformation",
+      "title": "De nouveaux repères pour transformer l’offre de protection de l’enfance",
+      "summary": "Le Gouvernement publie des repères élaborés avec l’IGAS après des expérimentations en Gironde et dans le Var. Les axes mis en avant comprennent davantage d’intervention à domicile, de soutien à la parentalité, de recours aux proches et de continuité des parcours.",
+      "source": "Ministère du Travail et des Solidarités",
+      "url": "https://solidarites.gouv.fr/protection-de-lenfance-une-nouvelle-etape-dans-la-transformation-de-loffre-au-service-des-enfants-et-des-familles"
+    },
+    {
+      "date": "2026-09-22",
+      "tag": "Réforme",
+      "title": "Un rapport propose une stratégie nationale 2026-2030",
+      "summary": "Le comité scientifique permanent pour la refondation de la protection de l’enfance a remis son rapport. Il insiste notamment sur l’intérêt supérieur de l’enfant, la stabilité des parcours, la prévention précoce, le soutien aux familles et la participation effective des enfants aux décisions qui les concernent.",
+      "source": "Ministère du Travail et des Solidarités",
+      "url": "https://solidarites.gouv.fr/remise-du-rapport-du-comite-scientifique-permanent-pour-la-refondation-de-la-politique-de-protection-de-lenfance"
+    },
+    {
+      "date": "2026-09-22",
+      "tag": "Défaillance",
+      "title": "À Marseille, des accusations graves visant un ancien éducateur de l’ASE",
+      "summary": "Une enquête du Monde revient sur la mise en examen d’un ancien éducateur d’un foyer marseillais pour des viols et agressions sexuelles présumés sur des mineures dont il avait la charge. L’affaire soulève aussi des questions sur les mécanismes d’alerte et de contrôle au sein des structures d’accueil.",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/societe/article/2026/09/22/a-marseille-les-jeunes-filles-placees-l-educateur-accuse-d-etre-un-predateur-et-ses-anciens-collegues-desorientes_6780245_3224.html"
+    },
+    {
+      "date": "2026-09-14",
+      "tag": "Protection numérique",
+      "title": "Violences sur mineurs : forte hausse des signalements visant Discord",
+      "summary": "L’association e-Enfance, gestionnaire du 3018, a signalé une forte hausse des cas de violences visant des mineurs sur Discord au premier semestre 2026 et a saisi les autorités. Les faits signalés incluent notamment exploitation sexuelle, grooming, menaces et diffusion de données personnelles.",
+      "source": "Le Monde / e-Enfance 3018",
+      "url": "https://www.lemonde.fr/pixels/article/2026/09/14/violences-sur-mineurs-l-association-e-enfance-alerte-sur-une-explosion-des-cas-sur-discord-et-saisit-la-justice_6773852_4408996.html"
+    }
+  ]
+}
