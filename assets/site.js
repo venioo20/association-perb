@@ -153,7 +153,7 @@ document.querySelectorAll('.perb-nav-link,.perb-nav-don').forEach(a=>a.addEventL
 // --- PERB : témoignages anonymisés ---
 const voicesDisclaimer=document.querySelector('.voices-disclaimer');
 if(voicesDisclaimer){
-  voicesDisclaimer.innerHTML='<strong>Témoignages anonymisés :</strong> ces textes synthétisent des situations réellement rencontrées par des familles. Les identités et certaines formulations ont été modifiées afin de préserver leur confidentialité.';
+  voicesDisclaimer.innerHTML='<strong>Témoignages anonymisés :</strong> certains avis sont publiés à partir de témoignages réellement reçus avec l’accord de leur auteur ; d’autres synthétisent des situations réellement rencontrées. Les identités et certaines formulations peuvent être modifiées afin de préserver la confidentialité.';
 }
 document.querySelectorAll('.voice-card footer').forEach(footer=>{
   footer.innerHTML='Parent accompagné <span>— identité protégée</span>';
@@ -175,4 +175,15 @@ if(voicesSection && !voicesSection.querySelector('.perb-review-cta')){
   reviewCta.innerHTML='<a class="button gold" href="avis.html">Laisser un avis <span>↗</span></a>';
   voicesSection.appendChild(reviewCta);
   io.observe(reviewCta);
+}
+
+// --- PERB : avis réellement reçu le 29/09/2026 ---
+const voicesGrid=document.querySelector('.voices-grid');
+if(voicesGrid && !voicesGrid.querySelector('[data-review-id="2026-09-29-01"]')){
+  const realReview=document.createElement('blockquote');
+  realReview.className='voice-card reveal';
+  realReview.dataset.reviewId='2026-09-29-01';
+  realReview.innerHTML='<p>« Depuis le début, vous avez toujours été présents et à mon écoute. Vous m’avez donné de bons conseils et aidé dans mes démarches. Vous êtes une association avec la main sur le cœur. Pour ma part, que du positif. Merci d’être là. »</p><footer>Parent accompagné <span>— identité protégée · 5/5 · aide à la rédaction d’un courrier</span></footer>';
+  voicesGrid.prepend(realReview);
+  io.observe(realReview);
 }
