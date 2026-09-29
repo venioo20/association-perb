@@ -3,6 +3,14 @@
   "intro": "Une sélection factuelle d’actualités françaises sur la protection de l’enfance : réformes, initiatives utiles, défaillances documentées et faits directement liés aux mineurs.",
   "items": [
     {
+      "date": "2026-09-28",
+      "tag": "Fait divers / Justice",
+      "title": "En Bretagne, un faux service de protection de l’enfance découvert",
+      "summary": "Selon TF1 Info, une femme est soupçonnée d’avoir créé de toutes pièces un faux service de protection de l’enfance avec locaux, salariés et véhicules portant des emblèmes officiels. Elle a été mise en examen pour escroquerie, faux et usage de faux et placée en détention provisoire.",
+      "source": "TF1 Info",
+      "url": "https://www.tf1info.fr/justice-faits-divers/videos/video-faux-service-judiciaire-incroyable-escroquerie-au-ministere-de-la-justice-55551-2466889.html"
+    },
+    {
       "date": "2026-09-23",
       "tag": "Transformation",
       "title": "De nouveaux repères pour transformer l’offre de protection de l’enfance",
@@ -33,6 +41,14 @@
       "summary": "L’association e-Enfance, gestionnaire du 3018, a signalé une forte hausse des cas de violences visant des mineurs sur Discord au premier semestre 2026 et a saisi les autorités. Les faits signalés incluent notamment exploitation sexuelle, grooming, menaces et diffusion de données personnelles.",
       "source": "Le Monde / e-Enfance 3018",
       "url": "https://www.lemonde.fr/pixels/article/2026/09/14/violences-sur-mineurs-l-association-e-enfance-alerte-sur-une-explosion-des-cas-sur-discord-et-saisit-la-justice_6773852_4408996.html"
+    },
+    {
+      "date": "2026-09-01",
+      "tag": "Prévention",
+      "title": "L’attestation d’honorabilité généralisée dans l’enfance handicapée",
+      "summary": "Depuis le 1er septembre 2026, l’attestation d’honorabilité est obligatoire sur tout le territoire pour les professionnels et bénévoles intervenant auprès d’enfants en situation de handicap dans les établissements et services médico-sociaux. Le dispositif vise à renforcer le contrôle des antécédents judiciaires.",
+      "source": "Ministère du Travail et des Solidarités",
+      "url": "https://solidarites.gouv.fr/enfance-handicapee-generalisation-de-lattestation-dhonorabilite"
     }
   ]
 }
