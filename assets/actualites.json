@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-30",
+  "lastUpdated": "2026-10-01",
   "intro": "Une sélection factuelle d’actualités françaises sur la protection de l’enfance : réformes, initiatives utiles, défaillances documentées et faits directement liés aux mineurs.",
   "items": [
     {
@@ -11,44 +11,44 @@
       "url": "https://www.tf1info.fr/justice-faits-divers/reportage-dans-le-finistere-tout-semblait-fiable-l-incroyable-escroquerie-imaginee-par-une-bretonne-au-detriment-du-ministere-de-la-justice-2466876.html"
     },
     {
+      "date": "2026-09-29",
+      "tag": "Droits de l’enfant",
+      "title": "Des experts de l’ONU appellent la France à renforcer la protection des enfants victimes de violences sexuelles",
+      "summary": "Des experts indépendants des Nations unies ont exprimé leur préoccupation face à des informations concernant la prise en charge d’enfants victimes de violences sexuelles et de parents protecteurs en France. Ils appellent les autorités à renforcer les garanties de protection et à faire primer l’intérêt supérieur de l’enfant. Il s’agit d’une prise de position d’experts de l’ONU, et non d’une décision de justice.",
+      "source": "Haut-Commissariat des Nations unies aux droits de l’homme",
+      "url": "https://www.ohchr.org/fr/press-releases/2026/09/france-un-experts-call-stronger-protection-child-victims-sexual-violence-and"
+    },
+    {
+      "date": "2026-09-26",
+      "tag": "Prévention / Numérique",
+      "title": "Une campagne nationale lancée contre la sextorsion visant les jeunes",
+      "summary": "Le Gouvernement a lancé une campagne de sensibilisation à la sextorsion, forme de chantage reposant sur la menace de diffuser des images intimes. La campagne vise à mieux informer les jeunes et leur entourage sur ce risque et les moyens de demander de l’aide.",
+      "source": "Ministère du Travail et des Solidarités",
+      "url": "https://solidarites.gouv.fr/lutte-contre-la-sextorsion"
+    },
+    {
       "date": "2026-09-23",
       "tag": "Transformation",
       "title": "De nouveaux repères pour transformer l’offre de protection de l’enfance",
       "summary": "Le Gouvernement publie des repères élaborés avec l’IGAS après des expérimentations en Gironde et dans le Var. Les axes mis en avant comprennent davantage d’intervention à domicile, de soutien à la parentalité, de recours aux proches et de continuité des parcours.",
       "source": "Ministère du Travail et des Solidarités",
-      "url": "https://solidarites.gouv.fr/protection-de-lenfance-une-nouvelle-etape-dans-la-transformation-de-loffre-au-service-des-enfants-et-des-familles"
+      "url": "https://solidarites.gouv.fr/protection-de-lenfance-le-gouvernement-reunit-pour-la-deuxieme-fois-le-comite-strategique-interministeriel-pour-poursuivre-la-refondation"
     },
     {
       "date": "2026-09-22",
       "tag": "Réforme",
-      "title": "Un rapport propose une stratégie nationale 2026-2030",
-      "summary": "Le comité scientifique permanent pour la refondation de la protection de l’enfance a remis son rapport. Il insiste notamment sur l’intérêt supérieur de l’enfant, la stabilité des parcours, la prévention précoce, le soutien aux familles et la participation effective des enfants aux décisions qui les concernent.",
+      "title": "La refondation de la protection de l’enfance entre dans une nouvelle phase",
+      "summary": "Le deuxième comité stratégique interministériel a présenté plusieurs chantiers : diversification de l’accueil, soutien à la parentalité, recours accru aux tiers de confiance, préparation de la sortie de l’ASE et poursuite de l’examen parlementaire du projet de loi relatif à la protection des enfants.",
       "source": "Ministère du Travail et des Solidarités",
-      "url": "https://solidarites.gouv.fr/remise-du-rapport-du-comite-scientifique-permanent-pour-la-refondation-de-la-politique-de-protection-de-lenfance"
+      "url": "https://solidarites.gouv.fr/protection-de-lenfance-le-gouvernement-reunit-pour-la-deuxieme-fois-le-comite-strategique-interministeriel-pour-poursuivre-la-refondation"
     },
     {
       "date": "2026-09-22",
-      "tag": "Défaillance",
+      "tag": "Défaillance / Justice",
       "title": "À Marseille, des accusations graves visant un ancien éducateur de l’ASE",
-      "summary": "Une enquête du Monde revient sur la mise en examen d’un ancien éducateur d’un foyer marseillais pour des viols et agressions sexuelles présumés sur des mineures dont il avait la charge. L’affaire soulève aussi des questions sur les mécanismes d’alerte et de contrôle au sein des structures d’accueil. Les faits reprochés restent soumis à la procédure judiciaire en cours.",
+      "summary": "Une enquête du Monde revient sur la mise en examen d’un ancien éducateur d’un foyer marseillais pour des viols et agressions sexuelles présumés sur des mineures dont il avait la charge. L’affaire soulève aussi des questions sur les mécanismes d’alerte et de contrôle au sein des structures d’accueil. Les faits reprochés restent soumis à la procédure judiciaire en cours et la présomption d’innocence s’applique.",
       "source": "Le Monde",
       "url": "https://www.lemonde.fr/societe/article/2026/09/22/a-marseille-les-jeunes-filles-placees-l-educateur-accuse-d-etre-un-predateur-et-ses-anciens-collegues-desorientes_6780245_3224.html"
-    },
-    {
-      "date": "2026-09-14",
-      "tag": "Protection numérique",
-      "title": "Violences sur mineurs : forte hausse des signalements visant Discord",
-      "summary": "L’association e-Enfance, gestionnaire du 3018, a signalé une forte hausse des cas de violences visant des mineurs sur Discord au premier semestre 2026 et a saisi les autorités. Les faits signalés incluent notamment exploitation sexuelle, grooming, menaces et diffusion de données personnelles.",
-      "source": "Le Monde / e-Enfance 3018",
-      "url": "https://www.lemonde.fr/pixels/article/2026/09/14/violences-sur-mineurs-l-association-e-enfance-alerte-sur-une-explosion-des-cas-sur-discord-et-saisit-la-justice_6773852_4408996.html"
-    },
-    {
-      "date": "2026-09-01",
-      "tag": "Prévention",
-      "title": "L’attestation d’honorabilité généralisée dans l’enfance handicapée",
-      "summary": "Depuis le 1er septembre 2026, l’attestation d’honorabilité est obligatoire sur tout le territoire pour les professionnels et bénévoles intervenant auprès d’enfants en situation de handicap dans les établissements et services médico-sociaux. Le dispositif vise à renforcer le contrôle des antécédents judiciaires.",
-      "source": "Ministère du Travail et des Solidarités",
-      "url": "https://solidarites.gouv.fr/enfance-handicapee-generalisation-de-lattestation-dhonorabilite"
     }
   ]
 }
