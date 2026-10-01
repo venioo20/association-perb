@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://perb-france.fr/sitemap.xml
