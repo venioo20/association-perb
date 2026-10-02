@@ -1,12 +1,20 @@
 {
-  "lastUpdated": "2026-10-01",
+  "lastUpdated": "2026-10-02",
   "intro": "Une sélection factuelle d’actualités françaises sur la protection de l’enfance : réformes, initiatives utiles, défaillances documentées et faits directement liés aux mineurs.",
   "items": [
+    {
+      "date": "2026-10-01",
+      "tag": "ASE / Justice",
+      "title": "À Clermont-Ferrand, enquête après la mort d’un mineur de 14 ans suivi par l’ASE",
+      "summary": "Un adolescent de 14 ans, mineur non accompagné suivi par l’aide sociale à l’enfance, a été retrouvé mort le 18 septembre dans sa chambre d’un foyer à Clermont-Ferrand. Le parquet a indiqué qu’une enquête et des analyses sont en cours pour rechercher les causes de la mort. À ce stade, aucune conclusion sur les circonstances ou d’éventuelles responsabilités ne doit être tirée.",
+      "source": "Le Parisien / AFP",
+      "url": "https://www.leparisien.fr/puy-de-dome-63/un-migrant-de-14-ans-retrouve-pendu-dans-un-foyer-a-clermont-ferrand-une-enquete-en-cours-01-10-2026-TNPU7U7STREMPNII2RJ5BGAPAI.php"
+    },
     {
       "date": "2026-09-30",
       "tag": "Fait divers / Justice",
       "title": "En Bretagne, un faux service de protection de l’enfance découvert",
-      "summary": "TF1 Info détaille l’affaire d’une femme de 38 ans soupçonnée d’avoir créé de toutes pièces un faux service de protection de l’enfance avec locaux, salariés et véhicules portant des emblèmes officiels. Elle a été mise en examen pour escroquerie, faux et usage de faux et placée en détention provisoire. La procédure est en cours.",
+      "summary": "TF1 Info détaille l’affaire d’une femme de 38 ans soupçonnée d’avoir créé de toutes pièces un faux service de protection de l’enfance avec locaux, salariés et véhicules portant des emblèmes officiels. Elle a été mise en examen pour escroquerie, faux et usage de faux et placée en détention provisoire. La procédure est en cours et la présomption d’innocence s’applique.",
       "source": "TF1 Info",
       "url": "https://www.tf1info.fr/justice-faits-divers/reportage-dans-le-finistere-tout-semblait-fiable-l-incroyable-escroquerie-imaginee-par-une-bretonne-au-detriment-du-ministere-de-la-justice-2466876.html"
     },
@@ -41,14 +49,6 @@
       "summary": "Le deuxième comité stratégique interministériel a présenté plusieurs chantiers : diversification de l’accueil, soutien à la parentalité, recours accru aux tiers de confiance, préparation de la sortie de l’ASE et poursuite de l’examen parlementaire du projet de loi relatif à la protection des enfants.",
       "source": "Ministère du Travail et des Solidarités",
       "url": "https://solidarites.gouv.fr/protection-de-lenfance-le-gouvernement-reunit-pour-la-deuxieme-fois-le-comite-strategique-interministeriel-pour-poursuivre-la-refondation"
-    },
-    {
-      "date": "2026-09-22",
-      "tag": "Défaillance / Justice",
-      "title": "À Marseille, des accusations graves visant un ancien éducateur de l’ASE",
-      "summary": "Une enquête du Monde revient sur la mise en examen d’un ancien éducateur d’un foyer marseillais pour des viols et agressions sexuelles présumés sur des mineures dont il avait la charge. L’affaire soulève aussi des questions sur les mécanismes d’alerte et de contrôle au sein des structures d’accueil. Les faits reprochés restent soumis à la procédure judiciaire en cours et la présomption d’innocence s’applique.",
-      "source": "Le Monde",
-      "url": "https://www.lemonde.fr/societe/article/2026/09/22/a-marseille-les-jeunes-filles-placees-l-educateur-accuse-d-etre-un-predateur-et-ses-anciens-collegues-desorientes_6780245_3224.html"
     }
   ]
 }
