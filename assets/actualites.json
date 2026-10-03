@@ -1,7 +1,15 @@
 {
-  "lastUpdated": "2026-10-02",
+  "lastUpdated": "2026-10-03",
   "intro": "Une sélection factuelle d’actualités françaises sur la protection de l’enfance : réformes, initiatives utiles, défaillances documentées et faits directement liés aux mineurs.",
   "items": [
+    {
+      "date": "2026-10-02",
+      "tag": "Territoires / Prévention",
+      "title": "Côte-d’Or : hausse des mesures de protection et renforcement de l’accueil familial",
+      "summary": "L’Observatoire départemental de la protection de l’enfance de Côte-d’Or fait état de 3 424 enfants ayant bénéficié d’au moins une mesure de protection en 2025, soit près de 12 % de plus qu’en 2022. Le Département indique parallèlement renforcer l’accueil familial : 136 assistants familiaux accueillent 264 enfants et le nombre d’agréments délivrés progresse. Une nouvelle structure spécialisée de six places a également ouvert en septembre 2026.",
+      "source": "La Gazette France / Observatoire départemental de la protection de l’enfance de Côte-d’Or",
+      "url": "https://www.lagazettefrance.fr/article/cote-d-or-retour-sur-l-assemblee-pleniere-de-l-observatoire-de-la-protection-de-l-enfance"
+    },
     {
       "date": "2026-10-01",
       "tag": "ASE / Justice",
@@ -39,14 +47,6 @@
       "tag": "Transformation",
       "title": "De nouveaux repères pour transformer l’offre de protection de l’enfance",
       "summary": "Le Gouvernement publie des repères élaborés avec l’IGAS après des expérimentations en Gironde et dans le Var. Les axes mis en avant comprennent davantage d’intervention à domicile, de soutien à la parentalité, de recours aux proches et de continuité des parcours.",
-      "source": "Ministère du Travail et des Solidarités",
-      "url": "https://solidarites.gouv.fr/protection-de-lenfance-le-gouvernement-reunit-pour-la-deuxieme-fois-le-comite-strategique-interministeriel-pour-poursuivre-la-refondation"
-    },
-    {
-      "date": "2026-09-22",
-      "tag": "Réforme",
-      "title": "La refondation de la protection de l’enfance entre dans une nouvelle phase",
-      "summary": "Le deuxième comité stratégique interministériel a présenté plusieurs chantiers : diversification de l’accueil, soutien à la parentalité, recours accru aux tiers de confiance, préparation de la sortie de l’ASE et poursuite de l’examen parlementaire du projet de loi relatif à la protection des enfants.",
       "source": "Ministère du Travail et des Solidarités",
       "url": "https://solidarites.gouv.fr/protection-de-lenfance-le-gouvernement-reunit-pour-la-deuxieme-fois-le-comite-strategique-interministeriel-pour-poursuivre-la-refondation"
     }
