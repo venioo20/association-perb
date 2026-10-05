@@ -1,54 +1,54 @@
 {
-  "lastUpdated": "2026-10-03",
-  "intro": "Une sélection factuelle d’actualités françaises sur la protection de l’enfance : réformes, initiatives utiles, défaillances documentées et faits directement liés aux mineurs.",
+  "lastUpdated": "2026-10-05",
+  "intro": "Une sélection d’actualités vérifiées sur la protection de l’enfance en France. Les dates indiquées sont celles des publications sources ; les annonces, propositions et données provisoires sont identifiées comme telles.",
   "items": [
     {
       "date": "2026-10-02",
       "tag": "Territoires / Prévention",
-      "title": "Côte-d’Or : hausse des mesures de protection et renforcement de l’accueil familial",
-      "summary": "L’Observatoire départemental de la protection de l’enfance de Côte-d’Or fait état de 3 424 enfants ayant bénéficié d’au moins une mesure de protection en 2025, soit près de 12 % de plus qu’en 2022. Le Département indique parallèlement renforcer l’accueil familial : 136 assistants familiaux accueillent 264 enfants et le nombre d’agréments délivrés progresse. Une nouvelle structure spécialisée de six places a également ouvert en septembre 2026.",
-      "source": "La Gazette France / Observatoire départemental de la protection de l’enfance de Côte-d’Or",
+      "title": "Côte-d’Or : davantage d’enfants suivis et un accueil familial sous tension",
+      "summary": "Selon La Gazette France, 3 424 enfants ont bénéficié d’une mesure de protection en Côte-d’Or en 2025, près de 12 % de plus qu’en 2022. L’accueil familial a perdu 165 places entre 2019 et 2025, malgré une reprise des agréments. Un protocole signé le 28 septembre 2026 vise à coordonner l’accès au logement, à la santé et à l’emploi des jeunes de 16 à 21 ans.",
+      "source": "La Gazette France",
       "url": "https://www.lagazettefrance.fr/article/cote-d-or-retour-sur-l-assemblee-pleniere-de-l-observatoire-de-la-protection-de-l-enfance"
     },
     {
-      "date": "2026-10-01",
-      "tag": "ASE / Justice",
-      "title": "À Clermont-Ferrand, enquête après la mort d’un mineur de 14 ans suivi par l’ASE",
-      "summary": "Un adolescent de 14 ans, mineur non accompagné suivi par l’aide sociale à l’enfance, a été retrouvé mort le 18 septembre dans sa chambre d’un foyer à Clermont-Ferrand. Le parquet a indiqué qu’une enquête et des analyses sont en cours pour rechercher les causes de la mort. À ce stade, aucune conclusion sur les circonstances ou d’éventuelles responsabilités ne doit être tirée.",
-      "source": "Le Parisien / AFP",
-      "url": "https://www.leparisien.fr/puy-de-dome-63/un-migrant-de-14-ans-retrouve-pendu-dans-un-foyer-a-clermont-ferrand-une-enquete-en-cours-01-10-2026-TNPU7U7STREMPNII2RJ5BGAPAI.php"
-    },
-    {
-      "date": "2026-09-30",
-      "tag": "Fait divers / Justice",
-      "title": "En Bretagne, un faux service de protection de l’enfance découvert",
-      "summary": "TF1 Info détaille l’affaire d’une femme de 38 ans soupçonnée d’avoir créé de toutes pièces un faux service de protection de l’enfance avec locaux, salariés et véhicules portant des emblèmes officiels. Elle a été mise en examen pour escroquerie, faux et usage de faux et placée en détention provisoire. La procédure est en cours et la présomption d’innocence s’applique.",
-      "source": "TF1 Info",
-      "url": "https://www.tf1info.fr/justice-faits-divers/reportage-dans-le-finistere-tout-semblait-fiable-l-incroyable-escroquerie-imaginee-par-une-bretonne-au-detriment-du-ministere-de-la-justice-2466876.html"
-    },
-    {
-      "date": "2026-09-29",
-      "tag": "Droits de l’enfant",
-      "title": "Des experts de l’ONU appellent la France à renforcer la protection des enfants victimes de violences sexuelles",
-      "summary": "Des experts indépendants des Nations unies ont exprimé leur préoccupation face à des informations concernant la prise en charge d’enfants victimes de violences sexuelles et de parents protecteurs en France. Ils appellent les autorités à renforcer les garanties de protection et à faire primer l’intérêt supérieur de l’enfant. Il s’agit d’une prise de position d’experts de l’ONU, et non d’une décision de justice.",
-      "source": "Haut-Commissariat des Nations unies aux droits de l’homme",
-      "url": "https://www.ohchr.org/fr/press-releases/2026/09/france-un-experts-call-stronger-protection-child-victims-sexual-violence-and"
-    },
-    {
-      "date": "2026-09-26",
+      "date": "2026-09-25",
       "tag": "Prévention / Numérique",
-      "title": "Une campagne nationale lancée contre la sextorsion visant les jeunes",
-      "summary": "Le Gouvernement a lancé une campagne de sensibilisation à la sextorsion, forme de chantage reposant sur la menace de diffuser des images intimes. La campagne vise à mieux informer les jeunes et leur entourage sur ce risque et les moyens de demander de l’aide.",
+      "title": "Sextorsion : une campagne pour les adolescents et le réflexe 3018",
+      "summary": "La CIIVISE et le ministère chargé de la Santé lancent une campagne du 25 septembre au 14 octobre 2026 auprès des 11–17 ans. Elle alerte sur le chantage à la diffusion d’images intimes et encourage les victimes à parler à un adulte de confiance et à contacter le 3018. Ce service gratuit, anonyme et confidentiel est accessible tous les jours de 9 h à 23 h.",
       "source": "Ministère du Travail et des Solidarités",
       "url": "https://solidarites.gouv.fr/lutte-contre-la-sextorsion"
     },
     {
       "date": "2026-09-23",
-      "tag": "Transformation",
-      "title": "De nouveaux repères pour transformer l’offre de protection de l’enfance",
-      "summary": "Le Gouvernement publie des repères élaborés avec l’IGAS après des expérimentations en Gironde et dans le Var. Les axes mis en avant comprennent davantage d’intervention à domicile, de soutien à la parentalité, de recours aux proches et de continuité des parcours.",
-      "source": "Ministère du Travail et des Solidarités",
-      "url": "https://solidarites.gouv.fr/protection-de-lenfance-le-gouvernement-reunit-pour-la-deuxieme-fois-le-comite-strategique-interministeriel-pour-poursuivre-la-refondation"
+      "tag": "Accompagnement / Familles",
+      "title": "Des repères pour diversifier l’accueil et soutenir les familles",
+      "summary": "Le ministère présente les repères de l’IGAS issus de travaux en Gironde et dans le Var. Ils préconisent de renforcer le soutien aux parents, les interventions à domicile, le recours aux proches et l’accueil familial, avec des parcours mieux coordonnés. L’Essonne et la Loire-Atlantique rejoignent la démarche en 2026. Ces orientations visent des réponses adaptées aux besoins et à la stabilité de chaque enfant.",
+      "source": "Ministère du Travail et des Solidarités / IGAS",
+      "url": "https://solidarites.gouv.fr/protection-de-lenfance-une-nouvelle-etape-dans-la-transformation-de-loffre-au-service-des-enfants-et-des-familles"
+    },
+    {
+      "date": "2026-09-22",
+      "tag": "Droits de l’enfant / Rapport",
+      "title": "Un rapport scientifique propose une refondation centrée sur l’enfant",
+      "summary": "Le comité scientifique permanent a remis ses propositions pour refonder la protection de l’enfance. Le rapport met en avant les besoins fondamentaux, la sécurité, la stabilité et la participation de l’enfant aux décisions, ainsi que la continuité de l’accompagnement, du soutien précoce à la famille jusqu’à l’autonomie. Il s’agit de préconisations, dont la publication ne vaut pas adoption de nouvelles règles.",
+      "source": "Ministère du Travail et des Solidarités / Comité scientifique permanent",
+      "url": "https://solidarites.gouv.fr/remise-du-rapport-du-comite-scientifique-permanent-pour-la-refondation-de-la-politique-de-protection-de-lenfance"
+    },
+    {
+      "date": "2026-09-22",
+      "tag": "Réforme / Justice",
+      "title": "Protection des enfants : une nouvelle étape annoncée au Parlement",
+      "summary": "Lors du deuxième comité stratégique interministériel, le Gouvernement annonce que le projet de loi relatif à la protection des enfants, adopté par l’Assemblée nationale, doit poursuivre son examen au Sénat en octobre. Le texte prévoit notamment de mieux encadrer les placements et de renforcer le recours aux tiers dignes de confiance. Cette annonce décrit un projet en cours d’examen, et non une loi déjà entrée en vigueur.",
+      "source": "Ministère de la Justice",
+      "url": "https://www.justice.gouv.fr/actualites/espace-presse/protection-lenfance-gouvernement-reunit-deuxieme-fois-comite-strategique-interministeriel"
+    },
+    {
+      "date": "2026-09-03",
+      "tag": "ASE / Données provisoires",
+      "title": "DREES : 411 700 mesures d’aide sociale à l’enfance fin 2025",
+      "summary": "Les premiers résultats de la DREES estiment à 411 700 le nombre de mesures d’ASE fin 2025, en hausse de 1,2 % sur un an. Il s’agit de mesures, pas d’un nombre d’enfants distincts. La progression des actions éducatives et le recul de l’accueil s’expliquent en partie par la requalification des placements éducatifs à domicile. Ces données restent provisoires ; les résultats définitifs sont annoncés pour fin 2026.",
+      "source": "DREES",
+      "url": "https://drees.solidarites-sante.gouv.fr/communique-de-presse-jeux-de-donnees/jeux-de-donnees/260903-aide-sociale-lenfance-2025"
     }
   ]
 }
